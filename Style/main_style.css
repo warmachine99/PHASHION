@@ -1,7 +1,13 @@
 * {
-    margin: none;
-    border: none;
+    margin: 0;
+    border: 0;
     box-sizing: border-box;
+}
+
+.home {
+    min-height: 100vh;
+    max-height: 100vh;
+    background-color: #717171;
 }
 
 /* NAVIGATION BAR */
