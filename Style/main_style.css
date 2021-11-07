@@ -194,4 +194,68 @@
   .product-carousel {
     margin-bottom: 7em;
   }
+
+
+/*  accessory css */
+
+.cover img{
+  max-width: 100%;  
+height: auto;  ;
   
+
+}
+
+.text{
+  position: absolute;
+  top: 30%;
+  left: 7%;
+
+}
+
+h1{
+  font-size: 70px;
+  color: #000;
+  font-family: 'Times New Roman';
+  text-transform: capitalize;
+  width: 60px;
+}
+
+h3{ 
+  position: absolute;
+  top: -4%;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  text-transform: uppercase;
+  color: #000;
+}
+
+
+form input[type="submit"]{
+  position: absolute;
+  top: 23%;
+  padding: 1%;
+  text-transform: uppercase;
+  background-color: grey;
+  color: #fff;
+  letter-spacing: 1px;
+
+}
+
+
+form input[type="submit"]:hover{
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
