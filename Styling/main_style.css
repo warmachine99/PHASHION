@@ -10,6 +10,11 @@
     background-color: #717171;
 }
 
+#alert {
+  margin: 0;
+  border: 0;
+}
+
 /* NAVIGATION BAR */
 .header{
   padding-top: 10px;

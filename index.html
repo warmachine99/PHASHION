@@ -20,14 +20,17 @@
                 alert('this website is in development.')
             </script>
 
-            <notif_bar align="center">
+            <notif_bar id="alert" align="center">
                 <marquee behavior="scroll" bgcolor="#bb3434" direction="left" scrollamount="13">
                 <span style="font-size: 20px; color:#ffffff">ALERT: International Insanity Crisis Still Ongoing: Keep Your Head On- ALWAYS Wear Your Helmet!</span>
+                <button class="close-button" aria-label="Close alert" type="button" data-close>
+                    <span aria-hidden="true">&times;</span>
+                </button>
                 </marquee>
                 <button></button>
             </notif_bar>
 
-            <navbar class="header">
+            <div class="header">
                 <upper>
                     <ul id="left">
                         <li><a href="#">Ghana</a></li>
@@ -52,7 +55,7 @@
                         <li><a href="#">ACCESSORY</a></li>
                     </ul>
                 </lower>
-            </navbar>
+            </div>
 
         </header>
 
