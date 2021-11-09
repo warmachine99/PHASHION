@@ -214,4 +214,9 @@
   .product-carousel {
     margin-bottom: 7em;
   }
+
+  .js .animate-box {
+    opacity: 0;
+  }
+  
   
