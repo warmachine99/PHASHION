@@ -157,12 +157,6 @@
     border-radius: 50%;
   }
 
-#nike{
-  background-image:url(../Assets/Images/shoesImages/shoe1.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-}
-
   .product .product-grid .inner {
     display: table;
     height: 350px;
