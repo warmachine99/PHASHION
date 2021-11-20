@@ -76,17 +76,16 @@ body {
 
 
 .form{
-  width: 450px;
+  width: 300px;
   height: 420px;
   background: linear-gradient(to top, rgba(90, 78, 78, 0.8)50%,rgba(90, 78, 78, 0.8)50%);
-  /* position: absolute; */
   top: -10px;
   left: 500px;
   transform: translate(0%,-5%);
   border-radius: 10px;
-  padding: 40px;
+  padding: 20px;
   margin-top: 100px;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 
 
@@ -95,7 +94,7 @@ body {
   width: 240px;
   height: 35px;
   background: transparent;
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid black;
   border-top: none;
   border-right: none;
   border-left: none;
@@ -118,7 +117,7 @@ body {
 .btnn{
   width: 240px;
   height: 40px;
-  background: green;
+  background: rgb(57, 94, 218);
   border: none;
   margin-top: 30px;
   font-size: 18px;
@@ -130,7 +129,7 @@ body {
 
 .btnn:hover{
   background: #fff;
-  color: green;
+  color: rgb(57, 94, 218);
 }
 
 .btnn a{
@@ -147,7 +146,7 @@ body {
 
 .form .link a{
   text-decoration: none;
-  color: green;
+  color: rgb(57, 94, 218);
 }
 
 .liw{
