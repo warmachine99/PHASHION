@@ -1,3 +1,8 @@
+<?php
+// start session so that errors can be available in this file to print
+session_start();
+
+?>
 <!doctype html>
 <html lang="en" class="h-100">
 
@@ -57,11 +62,25 @@
     <!-- form  -->
 
 
-    <div class="form">
+    <div class="form" action="functions/register_user_function.php" method="POST" enctype="multipart/form-data">
         <h2>Login Here</h2>
-        <input type="email" name="email" placeholder="Enter Email Here">
-        <input type="password" name="" placeholder="Enter Password Here">
-        <button class="btnn"><a href="#">Login</a></button>
+        <?php
+        if(isset($_SESSION["errors"])){
+            $errors = $_SESSION["errors"];
+
+            // loop and display errors
+            foreach($errors as $error){
+                ?>
+                    <small style="color: red"> <?= $error."<br>"; ?> </small>
+                <?php
+            }
+        }
+        // destroy session after displaying errors
+        session_destroy();
+    ?>
+        <input type="email" id="email" name="email" placeholder="Enter Email Here">
+        <input type="password" id="password" name="password" placeholder="Enter Password Here">
+        <button class="btnn"><a href="./Extra Pages/main.html">Login</a></button>
     
         <p class="link">Don't have an account<br>
             <a href="#">Sign up </a> here</a>
@@ -93,11 +112,16 @@
 
 
 
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="/Scripts/script.js"></script>
 
 </body>
 
 </html>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
