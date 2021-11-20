@@ -1,4 +1,4 @@
 # PHASHION
  WebTechers Project
 
-It
+A fashion website, made for WebTech.
