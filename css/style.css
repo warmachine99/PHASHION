@@ -51,16 +51,14 @@
     float: left;
 }
 
-.navbar .lower
-
-/* Form Css */
+/* .navbar .lower */
 
 
-/* ------------------------------------------------------------------ */
 
 .product {
     margin-bottom: 40px;
-  }
+}
+  
   .product .product-grid {
     background-size: cover;
     background-attachment: fixed;
