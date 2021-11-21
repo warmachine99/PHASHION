@@ -10,159 +10,6 @@
   * 	Template Style 
   *
   * ======================================================= */
-  /* NAVIGATION BAR */
-.navbar{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  margin-right: 60px;
-  margin-top: 20px;
-
-  gap: 1em;
-  font-size: 12px;
-
-}
-
-.navbar a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.navbar li {
-  list-style-type: none;
-  padding: 5px 14px;
-  transition: .5s ease-in-out;
-
-  display: inline;
-}
-
-.navbar li:hover {
-  background-color: #717171;
-  transition: .5s ease-in-out;
-}
-
-.navbar #right {
-    float: right;
-    
-}
-
-.navbar #left {
-    float: left;
-}
-
-/* .navbar .lower */
-
-
-
-.product {
-    margin-bottom: 40px;
-}
-  
-  .product .product-grid {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 350px;
-    margin-bottom: 20px;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-  }
-  .product .product-grid .sale {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    padding: 60px;
-    z-index: 100;
-    background: #d1c286;
-    color: #fff;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-  }
-
-  .product .product-grid .inner {
-    display: table;
-    height: 350px;
-    width: 100%;
-    opacity: 0;
-    background: rgba(0, 0, 0, 0.3);
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-  }
-
-
-  
-@media screen and (max-width: 768px) {
-    .product .product-grid .inner {
-      opacity: 1;
-      background: transparent;
-    }
-  }
-  .product .product-grid .inner p {
-    display: table-cell;
-    vertical-align: middle;
-  }
-  .product .product-grid .inner p .icon {
-    padding: 7px 10px;
-    color: #fff;
-    background: #d1c286;
-  }
-  .product .product-grid .inner p .icon:hover, .product .product-grid .inner p .icon:focus {
-    color: #d1c286;
-    background: #fff;
-  }
-  .product .desc h3 {
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-    font-weight: bold;
-    line-height: 24px;
-  }
-  .product .desc h3 a {
-    color: #000;
-  }
-  .product .desc .price {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-  .product:hover .product-grid, .product:focus .product-grid {
-    -webkit-box-shadow: 0px 10px 24px -7px rgba(0, 0, 0, 0.35);
-    -moz-box-shadow: 0px 10px 24px -7px rgba(0, 0, 0, 0.35);
-    -ms-box-shadow: 0px 10px 24px -7px rgba(0, 0, 0, 0.35);
-    -o-box-shadow: 0px 10px 24px -7px rgba(0, 0, 0, 0.35);
-    box-shadow: 0px 10px 24px -7px rgba(0, 0, 0, 0.35);
-  }
-  .product:hover .inner, .product:focus .inner {
-    opacity: 1;
-  }
-  .product:hover .desc h3 a, .product:focus .desc h3 a {
-    color: #d1c286;
-  }
-  
-  .product-carousel {
-    margin-bottom: 7em;
-  }
-
-  .js .animate-box {
-    opacity: 0;
-  }
-  
-  
-
-
-
-
-
-
-
-
   body {
     font-family: "Playfair Display", serif;
     font-weight: 400;
@@ -711,7 +558,7 @@
     left: 0;
     top: .05em;
     font-family: 'icomoon';
-    
+    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -1036,7 +883,7 @@
     border-radius: 4px;
   }
   .fh5co-tabs .fh5co-tab-nav li {
-    
+    float: left;
     margin: 0;
     padding: 0;
     width: 33.33%;
@@ -1470,7 +1317,7 @@
     position: absolute;
     right: 0px;
     font-family: 'icomoon';
-    
+    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -1839,4 +1686,3 @@
   
   /*# sourceMappingURL=style.css.map */
   
-
