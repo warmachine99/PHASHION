@@ -128,8 +128,8 @@ session_start();
                         <div class="product-grid" style="background-image: url(images/shoesImages/s1.jpg);">
                             <div class="inner">
                                 <p>
-                                <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                <a href="Extra Pages/Products/Shoes/one.html" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="Extra Pages/Products/Shoes/one.html" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
