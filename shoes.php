@@ -76,8 +76,8 @@ session_start();
 						<li class="has-dropdown">
 							<a href="#">Shop</a>
 							<ul class="dropdown">
-								<li><a href="/bags.php">Bags</a></li>
-								<li><a href="/accessories.php">Accessories</a></li>
+								<li><a href="bags.php">Bags</a></li>
+								<li><a href="accessories.php">Accessories</a></li>
 							</ul>
 						</li>
 						<li><a href="about.php">About</a></li>
@@ -257,7 +257,7 @@ session_start();
                 </div>
                 <div class="col-md-4 text-center animate-box">
                     <div class="product">
-                        <div class="product-grid" style="background-image:url(images/bagsimages/prodAfr9.jpg);">
+                        <div class="product-grid" style="background-image:url(images/shoesImages/s9.png);">
                             <div class="inner">
                                 <p>
                                     <a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
