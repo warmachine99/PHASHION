@@ -6,7 +6,7 @@ session_start();
 
 
 <!DOCTYPE HTML>
-<html>
+<php>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -68,27 +68,27 @@ session_start();
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">PHASHION</a></div>
+					<div id="fh5co-logo"><a href="index.php">PHASHION</a></div>
 				</div>
 				<div class="col-md-6 col-xs-6 text-center menu-1">
 					<ul>
-						<li><a href="Extra Pages/main.html">Home</a></li>
+						<li><a href="Extra Pages/main.php">Home</a></li>
 						<li class="has-dropdown">
 							<a href="#">Shop</a>
 							<ul class="dropdown">
-								<li><a href="/bags.html">Bags</a></li>
-								<li><a href="/accessories.html">Accessories</a></li>
+								<li><a href="/bags.php">Bags</a></li>
+								<li><a href="/accessories.php">Accessories</a></li>
 							</ul>
 						</li>
-						<li><a href="about.html">About</a></li>
+						<li><a href="about.php">About</a></li>
 						
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
 					<ul>
 						
-						<li class="shopping-cart"><a href="/Extra Pages/cart.html" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
+						<li class="shopping-cart"><a href="/Extra Pages/cart.php" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
 					</ul>
 				</div>
 			</div>
@@ -128,13 +128,13 @@ session_start();
                         <div class="product-grid" style="background-image: url(images/shoesImages/s1.jpg);">
                             <div class="inner">
                                 <p>
-                                <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                <a href="Extra Pages/Products/Shoes/one.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="Extra Pages/Products/Shoes/one.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="/Extra Pages/Products/Shoes/one.html">Kente Slip-ons </a></h3>
+                            <h3><a href="Extra Pages/Products/Shoes/one.php">Kente Slip-ons </a></h3>
                             <span class="price">GHS 160.00</span>
                         </div>
                     </div>
@@ -144,13 +144,13 @@ session_start();
                         <div class="product-grid" style="background-image:url(images/shoesImages/s2.jpg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="Extra Pages/Products/Shoes/two.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="Extra Pages/Products/Shoes/two.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">High-Tops AF</a></h3>
+                            <h3><a href="Extra Pages/Products/Shoes/two.php">High-Tops AF</a></h3>
                             <span class="price">GHS 200.00</span>
                         </div>
                     </div>
@@ -160,13 +160,13 @@ session_start();
                         <div class="product-grid" style="background-image:url(images/shoesImages/s3.jpg);">
                         <div class="inner">
                             <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="Extra Pages/Products/Shoes/three.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="Extra Pages/Products/Shoes/three.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">Addidas x Mids</a></h3>
+                            <h3><a href="Extra Pages/Products/Shoes/three.php">Addidas x Mids</a></h3>
                             <span class="price">GHS 300.00</span>
                         </div>
                     </div>
@@ -178,13 +178,13 @@ session_start();
                         <div class="product-grid" style="background-image:url(images/shoesImages/s4.jpeg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">Zip-ups</a></h3>
+                            <h3><a href="single.php">Zip-ups</a></h3>
                             <span class="price">GHS 150.00</span>
                         </div>
                     </div>
@@ -194,13 +194,13 @@ session_start();
                         <div class="product-grid" style="background-image:url(images/shoesImages/s5.jpeg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">Converse x Art</a></h3>
+                            <h3><a href="single.php">Converse x Art</a></h3>
                             <span class="price">GHS 250.00</span>
                         </div>
                     </div>
@@ -210,13 +210,13 @@ session_start();
                         <div class="product-grid" style="background-image:url(images/shoesImages/s6.jpg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">High-tops Converse</a></h3>
+                            <h3><a href="single.php">High-tops Converse</a></h3>
                             <span class="price">GHS 500.00</span>
                         </div>
                     </div>
@@ -228,13 +228,13 @@ session_start();
                         <div class="product-grid" style="background-image:url(images/shoesImages/s7.jpg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">Kente x AirForce 1</a></h3>
+                            <h3><a href="single.php">Kente x AirForce 1</a></h3>
                             <span class="price">GHS 300.00</span>
                         </div>
                     </div>
@@ -244,13 +244,13 @@ session_start();
                         <div class="product-grid" style="background-image:url(images/shoesImages/s8.jpg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">Loafers x Kente</a></h3>
+                            <h3><a href="single.php">Loafers x Kente</a></h3>
                             <span class="price">GHS 240.00</span>
                         </div>
                     </div>
@@ -260,13 +260,13 @@ session_start();
                         <div class="product-grid" style="background-image:url(images/bagsimages/prodAfr9.jpg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">Strap-ons regular</a></h3>
+                            <h3><a href="single.php">Strap-ons regular</a></h3>
                             <span class="price">GHS 120</span>
                         </div>
                     </div>
@@ -305,9 +305,9 @@ session_start();
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6 col-md-push-1">
 					<ul class="fh5co-footer-links">
-						<li><a href="Extra Pages/main.html">Home</a></li>
-						<li><a href="/about.html">About</a></li>
-						<li><a href="/contact.html">Contact Us</a></li>
+						<li><a href="Extra Pages/main.php">Home</a></li>
+						<li><a href="/about.php">About</a></li>
+						<li><a href="/contact.php">Contact Us</a></li>
 						
 					</ul>
 				</div>
@@ -315,8 +315,8 @@ session_start();
 				<div class="col-md-3 col-sm-6 col-xs-6 col-md-push-1">
 					<ul class="fh5co-footer-links">
 						<li><a href="#">Shoes</a></li>
-						<li><a href="/bags.html">Bags</a></li>
-						<li><a href="/accessories.html">Accessories</a></li>
+						<li><a href="/bags.php">Bags</a></li>
+						<li><a href="/accessories.php">Accessories</a></li>
 					</ul>
 				</div>
 
@@ -365,5 +365,5 @@ session_start();
 	<script src="js/main.js"></script>
 
 	</body>
-</html>
+</php>
 

@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<php>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -61,7 +61,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">PHASHION</a></div>
+					<div id="fh5co-logo"><a href="index.php">PHASHION</a></div>
 				</div>
 				<div class="col-md-6 col-xs-6 text-center menu-1">
 					<ul>
@@ -74,22 +74,15 @@
 								<li><a href="../../../accessories.php">Accessories</a></li>
 							</ul>
 						</li>
-						<li><a href="../../../about.html">About</a></li>
+						<li><a href="../../../about.php">About</a></li>
 						
-						<li><a href="../../../contact.html">Contact</a></li>
+						<li><a href="../../../contact.php">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
 					<ul>
-						<li class="search">
-							<div class="input-group">
-						      <input type="text" placeholder="Search..">
-						      <span class="input-group-btn">
-						        <button class="btn btn-primary" type="button"><i class="icon-search"></i></button>
-						      </span>
-						    </div>
-						</li>
-						<li class="shopping-cart"><a href="../../cart.html" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
+						
+						<li class="shopping-cart"><a href="../../cart.php" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
 					</ul>
 				</div>
 			</div>
@@ -228,9 +221,9 @@
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6 col-md-push-1">
 					<ul class="fh5co-footer-links">
-						<li><a href="Extra Pages/main.html">Home</a></li>
-						<li><a href="/about.html">About</a></li>
-						<li><a href="/contact.html">Contact Us</a></li>
+						<li><a href="Extra Pages/main.php">Home</a></li>
+						<li><a href="/about.php">About</a></li>
+						<li><a href="/contact.php">Contact Us</a></li>
 						
 					</ul>
 				</div>
@@ -238,8 +231,8 @@
 				<div class="col-md-3 col-sm-6 col-xs-6 col-md-push-1">
 					<ul class="fh5co-footer-links">
 						<li><a href="#">Shoes</a></li>
-						<li><a href="/bags.html">Bags</a></li>
-						<li><a href="/accessories.html">Accessories</a></li>
+						<li><a href="/bags.php">Bags</a></li>
+						<li><a href="/accessories.php">Accessories</a></li>
 					</ul>
 				</div>
 			</div>
@@ -287,5 +280,5 @@
 	<script src="../../../js/main.js"></script>
 
 	</body>
-</html>
+</php>
 

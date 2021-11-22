@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<php>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -61,27 +61,27 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">PHASHION</a></div>
+					<div id="fh5co-logo"><a href="index.php">PHASHION</a></div>
 				</div>
 				<div class="col-md-6 col-xs-6 text-center menu-1">
 					<ul>
-						<li><a href="/Extra Pages/main.html">Home</a></li>
+						<li><a href="/Extra Pages/main.php">Home</a></li>
 						<li class="has-dropdown">
 							<a href="#">Shop</a>
 							<ul class="dropdown">
-								<li><a href="/bags.html">Bags</a></li>
-								<li><a href="/shoes.html">Shoes</a></li>
+								<li><a href="/bags.php">Bags</a></li>
+								<li><a href="/shoes.php">Shoes</a></li>
 							</ul>
 						</li>
-						<li><a href="about.html">About</a></li>
+						<li><a href="about.php">About</a></li>
 						
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
 					<ul>
 						
-						<li class="shopping-cart"><a href="/Extra Pages/cart.html" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
+						<li class="shopping-cart"><a href="/Extra Pages/cart.php" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
 					</ul>
 				</div>
 			</div>
@@ -121,13 +121,13 @@
                         <div class="product-grid" style="background-image: url(images/accessimages/a1.jpg);">
                             <div class="inner">
                                 <p>
-                                <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                <a href="Extra Pages/Products/Accessories/a-one.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="Extra Pages/Products/Accessories/a-one.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">Masai Necklace</a></h3>
+                            <h3><a href="Extra Pages/Products/Accessories/a-one.php">Masai Necklace</a></h3>
                             <span class="price">GHS 7000.00</span>
                         </div>
                     </div>
@@ -137,13 +137,13 @@
                         <div class="product-grid" style="background-image:url(images/accessimages/a2.jpg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="Extra Pages/Products/Accessories/a-two.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="Extra Pages/Products/Accessories/a-two.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">Kente Earrings</a></h3>
+                            <h3><a href="Extra Pages/Products/Accessories/a-two.php">Kente Earrings</a></h3>
                             <span class="price">GHS 250.00</span>
                         </div>
                     </div>
@@ -153,13 +153,13 @@
                         <div class="product-grid" style="background-image:url(images/accessimages/a3.jpg);">
                         <div class="inner">
                             <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="Extra Pages/Products/Accessories/a-three.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="Extra Pages/Products/Accessories/a-three.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">Queens Necklace</a></h3>
+                            <h3><a href="Extra Pages/Products/Accessories/a-three.php">Queens Necklace</a></h3>
                             <span class="price">GHS 300.00</span>
                         </div>
                     </div>
@@ -171,13 +171,13 @@
                         <div class="product-grid" style="background-image:url(images/accessimages/a4.jpg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">Kush Bracelet</a></h3>
+                            <h3><a href="single.php">Kush Bracelet</a></h3>
                             <span class="price">GHS 60.00</span>
                         </div>
                     </div>
@@ -187,13 +187,13 @@
                         <div class="product-grid" style="background-image:url(images/accessimages/a5.jpg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">Regular African Bracelet</a></h3>
+                            <h3><a href="single.php">Regular African Bracelet</a></h3>
                             <span class="price">GHS 40.00</span>
                         </div>
                     </div>
@@ -203,13 +203,13 @@
                         <div class="product-grid" style="background-image:url(images/accessimages/a6.jpg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">Ornate Head wear</a></h3>
+                            <h3><a href="single.php">Ornate Head wear</a></h3>
                             <span class="price">GHS 500.00</span>
                         </div>
                     </div>
@@ -221,13 +221,13 @@
                         <div class="product-grid" style="background-image:url(images/accessimages/a7.jpg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">Golden Horn Of Africa</a></h3>
+                            <h3><a href="single.php">Golden Horn Of Africa</a></h3>
                             <span class="price">GHS 300.00</span>
                         </div>
                     </div>
@@ -237,13 +237,13 @@
                         <div class="product-grid" style="background-image:url(images/accessimages/a8.jpg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">African Bow tie</a></h3>
+                            <h3><a href="single.php">African Bow tie</a></h3>
                             <span class="price">GHS 30.00</span>
                         </div>
                     </div>
@@ -253,13 +253,13 @@
                         <div class="product-grid" style="background-image:url(images/accessimages/a9.jpg);">
                             <div class="inner">
                                 <p>
-                                    <a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-                                    <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+                                    <a href="single.php" class="icon"><i class="icon-eye"></i></a>
                                 </p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h3><a href="single.html">African Fanny Pack</a></h3>
+                            <h3><a href="single.php">African Fanny Pack</a></h3>
                             <span class="price">GHS 120</span>
                         </div>
                     </div>
@@ -298,17 +298,17 @@
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6 col-md-push-1">
 					<ul class="fh5co-footer-links">
-						<li><a href="Extra Pages/main.html">Home</a></li>
-						<li><a href="/about.html">About</a></li>
-						<li><a href="/contact.html">Contact Us</a></li>
+						<li><a href="Extra Pages/main.php">Home</a></li>
+						<li><a href="/about.php">About</a></li>
+						<li><a href="/contact.php">Contact Us</a></li>
 						
 					</ul>
 				</div>
 
 				<div class="col-md-3 col-sm-6 col-xs-6 col-md-push-1">
 					<ul class="fh5co-footer-links">
-						<li><a href="/shoes.html">Shoes</a></li>
-						<li><a href="/bags.html">Bags</a></li>
+						<li><a href="/shoes.php">Shoes</a></li>
+						<li><a href="/bags.php">Bags</a></li>
 						<li><a href="#">Accessories</a></li>
 					</ul>
 				</div>
@@ -358,5 +358,5 @@
 	<script src="js/main.js"></script>
 
 	</body>
-</html>
+</php>
 

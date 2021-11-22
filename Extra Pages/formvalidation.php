@@ -43,19 +43,18 @@ $msg = "";
 if (isset($_POST['submit'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
-    $cpassworErr = $_POST['cpassword'];
+    $cpassworErr = $_POST['cpassword']; 
 
-    if (empty($email) || empty($emailErr) || empty($password) || empty($passwordErr){
+    if (empty($email) || empty($emailErr) || empty($password) || empty($passwordErr)) {
         $msg = "<div class='alert alert-danger'>All fields are required.</div>";
-        }else {
-           if ($password !== $passwordErr) {
+        } else {
+            if ($password !== $passwordErr) {
                     $msg = "<div class='alert alert-danger'>Password and confirm password do not match.</div>";
                 }else {
                     $msg = "<div class='alert alert-success'>Login successful.</div>";
                 }
             }
-        }
-    }
+        
 }
 
 

@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!doctype php>
+<php lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,10 +7,16 @@
     <meta name="author" content="WebTecher">
     <title>Checkout | PHASHION&reg;</title>
 
-    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- Bootstrap core CSS -->
-	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Theme style  -->
+	<link rel="stylesheet" href="../css/style.css">
 
     <style>
       .bd-placeholder-img {
@@ -30,10 +36,36 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="/css/form-validation.css" rel="stylesheet">
+    <link href="../css/form-validation.css" rel="stylesheet">
 </head>
 
-  <body class="bg-light">
+<body class="bg-light">
+<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-2">
+					<div id="fh5co-logo"><a href="../index.php">PHASHION</a></div>
+				</div>
+				<div class="col-md-6 col-xs-6 text-center menu-1">
+					<ul>
+						<li><a href="main.php">Home</a></li>
+						<li class="has-dropdown">
+							<a href="#">Shop</a>
+							<ul class="dropdown">
+								<li><a href="../bags.php">Bags</a></li>
+								<li><a href="../shoes.php">Shoes</a></li>
+                <li><a href="../accessories.php">Accessories</a></li>
+							</ul>
+						</li>
+						<li><a href="../about.php">About</a></li>
+						
+						<li><a href="../contact.php">Contact</a></li>
+					</ul>
+				</div>
+		
+		</div>
+	</nav>
+
     
 <div class="container">
   <main>
@@ -52,14 +84,14 @@
         <ul class="list-group mb-3">
           <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 class="my-0">Cool Ass Shoes</h6>
+              <h6 class="my-0">Cool Shoes</h6>
               <small class="text-muted">2 pairs</small>
             </div>
             <span class="text-muted">Ghc12</span>
           </li>
           <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 class="my-0">Crystal Meth</h6>
+              <h6 class="my-0">Red Bull</h6>
               <small class="text-muted">Gives you wings</small>
             </div>
             <span class="text-muted">Ghc8</span>
@@ -253,8 +285,8 @@
 </div>
 
 
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
-      <script src="/js/form-validation.js"></script>
+      <script src="../js/form-validation.js"></script>
   </body>
-</html>
+</php>

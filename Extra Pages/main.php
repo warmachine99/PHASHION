@@ -4,8 +4,8 @@ session_start();
 
 ?>
 
-<!doctype html>
-<html lang="en">
+<!doctype php>
+<php lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,10 +21,10 @@ session_start();
     
 
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">    
+    <link href="../css/bootstrap.min.css" rel="stylesheet">    
     
     <!-- Custom styles for this template -->
-    <link href="/Custom Styling/carousel.css" rel="stylesheet">  
+    <link href="../Custom Styling/carousel.css" rel="stylesheet">  
     
 
 
@@ -51,10 +51,10 @@ session_start();
              <a class="nav-link" href="../shoes.php">Shoes</a> <!-- if ikeep ../ after the register the shoes bags link when clicked do not come -->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../bags.html">Bags</a>
+            <a class="nav-link" href="../bags.php">Bags</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../accessories.html">Accessories</a>
+            <a class="nav-link" href="../accessories.php">Accessories</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled">English</a>
@@ -62,7 +62,7 @@ session_start();
         </ul>
         
         <form class="d-flex">
-          <a href="/Extra Pages/cart.html" class="btn btn-outline-success" >Cart</a>
+          <a href="/cart.php" class="btn btn-outline-success" >Cart</a>
         </form>
       </div>
     </div>
@@ -91,7 +91,7 @@ session_start();
               <div class="carousel-caption text-start d-none d-md-block">
                   <h1>We got shoes.</h1>
                   <p>Shoes for days. Shoes for nights. Shoes for every moment.</p>
-                  <p><a class="btn btn-lg btn-primary border-white bg-white text-black" href="../shoes.html">Shop Now</a></p>
+                  <p><a class="btn btn-lg btn-primary border-white bg-white text-black" href="../shoes.php">Shop Now</a></p>
               </div>
           </div>
 
@@ -100,16 +100,16 @@ session_start();
               <div class="carousel-caption text-start d-none d-md-block">
                 <h1>Don't forget your bag!</h1>
                 <p>The perfect sidekick for your next adventure.</p>
-                <p><a class="btn btn-lg btn-primary border-white bg-white text-black" href="../bags.html">Shop Now</a></p>
+                <p><a class="btn btn-lg btn-primary border-white bg-white text-black" href="../bags.php">Shop Now</a></p>
               </div>
           </div>
 
           <div class="carousel-item">
-              <img class="d-block w-100" src="/Assets/Images/Carousel/accessory.jpg" alt="Third slide" style="object-fit: cover;">
+              <img class="d-block w-100" src="../Assets/Images/Carousel/accessory.jpg" alt="Third slide" style="object-fit: cover;">
               <div class="carousel-caption text-start d-none d-md-block">
                 <h1>We'll get you accessories.</h1>
                 <p>And they're gonna match your personality.</p>
-                <p><a class="btn btn-lg btn-primary border-white bg-white text-black" href="../accessories.html">Shop Now</a></p>
+                <p><a class="btn btn-lg btn-primary border-white bg-white text-black" href="../accessories.php">Shop Now</a></p>
               </div>
           </div>
       </div>
@@ -150,7 +150,7 @@ session_start();
         <p class="lead">From complimentary monogramming to the Phashion DIY selection, add your initals to leather goods or a selection of knitwear straight from Phashion.com or visit us in-store for jewelry engraving and Zodiac personalization.</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <img src="/Assets/Images/Carousel/below/1-initi.jpg" class="featurette-image img-fluid mx-auto" alt="shoes" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img src="../Assets/Images/Carousel/below/1-initi.jpg" class="featurette-image img-fluid mx-auto" alt="shoes" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false">
 
       </div>
     </div>
@@ -163,7 +163,7 @@ session_start();
         <p class="lead">"Whoever said that money can't buy happiness, simply didn't know where to go shopping." —Bo Derek</p>
       </div>
       <div class="col-md-5">
-        <img src="/Assets/Images/Carousel/below/3-hat.jpg" class="featurette-image img-fluid mx-auto" alt="shoes" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img src="../Assets/Images/Carousel/below/3-hat.jpg" class="featurette-image img-fluid mx-auto" alt="shoes" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false">
 
       </div>
     </div>
@@ -187,5 +187,5 @@ session_start();
 
       
   </body>
-</html>
+</php>
 
