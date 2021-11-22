@@ -19,12 +19,12 @@ session_start();
 
     <title>PHASHION&reg; Official Site | Redefining Everyday Style</title>
 
-
+  <!-- Removing the / brings the css -->
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/Custom Styling/cover.css" rel="stylesheet">
+    <link href="Custom Styling/cover.css" rel="stylesheet">
 
 </head>
 
@@ -35,7 +35,7 @@ session_start();
             <div>
                 <h3 class="float-md-start mb-0">PHASHION</h3>
                 <nav class="nav nav-masthead justify-content-center float-md-end">
-                    <a class="nav-link active" aria-current="page" href="/Extra Pages/main.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="/Extra Pages/main.php">Home</a>
                     <a class="nav-link" href="/Extra Pages/about-us.html">About Us</a>
                     <a class="nav-link" href="#">Sign In</a>
                 </nav>
@@ -48,7 +48,7 @@ session_start();
             <p class="lead">Welcome to Phashion.</p>
             <p class="lead">We'll make you look good. Guaranteed.</p>
             <p class="lead">
-                <a href="/Extra Pages/main.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">SHOP</a>
+                <a href="Extra Pages/main.php" class="btn btn-lg btn-secondary fw-bold border-white bg-white">SHOP</a>
             </p>
         </main>
 
@@ -62,15 +62,15 @@ session_start();
     <!-- form  -->
 
 
-    <div class="form" action="functions/register_user_function.php" method="POST" enctype="multipart/form-data">
+    <div class="form" action="database.php"   method="POST" enctype="multipart/form-data">
         <h2>Login Here</h2>
         
         <input type="email" id="email" name="email" placeholder="Enter Email Here">
         <input type="password" id="password" name="password" placeholder="Enter Password Here">
-        <button class="btnn"><a href="./Extra Pages/main.html">Login</a></button>
+        <button class="btnn"><a href="Extra Pages/main.php">Login</a></button>
     
         <p class="link">Don't have an account<br>
-            <a href="#">Sign up </a> here</a>
+            <a href="register.php">Sign up </a> here</a>
         </p>
         <p class="liw">Log in with</p>
     
@@ -108,7 +108,7 @@ session_start();
 
 
 
-
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -123,12 +123,12 @@ session_start();
 </head>
 
 <body>
-    <!-- <script src="/Scripts/script.js"></script> -->
+    <script src="/Scripts/script.js"></script>
 
     <div class="home">
         <header>
 
-            <!--
+            
             <notif_bar id="alert" align="center">
                 <marquee behavior="scroll" bgcolor="#bb3434" direction="left" scrollamount="13">
                 <span style="font-size: 20px; color:#ffffff">ALERT: International Insanity Crisis Still Ongoing: Keep Your Head On- ALWAYS Wear Your Helmet!</span>
@@ -171,8 +171,6 @@ session_start();
 
         </header>
 
-        
-        -->
     </div>
 
 
@@ -186,4 +184,4 @@ session_start();
 
 </body>
 
-</html>
+</html> -->

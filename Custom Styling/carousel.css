@@ -107,7 +107,7 @@ body {
 }
 
 #first {
-  background-image: url(/Assets/Images/Carousel/shoes.jpg);
+  background-image: url(../Assets/Images/Carousel/shoes.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
