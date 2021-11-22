@@ -1,3 +1,10 @@
+<?php
+// start session so that errors can be available in this file to print
+session_start();
+
+?>
+
+
 <!DOCTYPE HTML>
 <html>
 	<head>

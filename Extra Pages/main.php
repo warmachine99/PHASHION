@@ -1,3 +1,9 @@
+<?php
+// start session so that errors can be available in this file to print
+session_start();
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -42,7 +48,7 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../shoes.html">Shoes</a>
+             <a class="nav-link" href="../shoes.php">Shoes</a> <!-- if ikeep ../ after the register the shoes bags link when clicked do not come -->
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../bags.html">Bags</a>
@@ -81,7 +87,7 @@
 
       <div class="carousel-inner">
           <div class="carousel-item active">
-              <img class="d-block w-100" src="/Assets/Images/Carousel/shoes.jpg" alt="First slide" style="object-fit: cover;">
+              <img class="d-block w-100" src="../Assets/Images/Carousel/shoes.jpg" alt="First slide" style="object-fit: cover;">
               <div class="carousel-caption text-start d-none d-md-block">
                   <h1>We got shoes.</h1>
                   <p>Shoes for days. Shoes for nights. Shoes for every moment.</p>
@@ -90,7 +96,7 @@
           </div>
 
           <div class="carousel-item">
-              <img class="d-block w-100" src="/Assets/Images/Carousel/bags.jpg" alt="Second slide" style="object-fit: cover;">
+              <img class="d-block w-100" src="../Assets/Images/Carousel/bags.jpg" alt="Second slide" style="object-fit: cover;">
               <div class="carousel-caption text-start d-none d-md-block">
                 <h1>Don't forget your bag!</h1>
                 <p>The perfect sidekick for your next adventure.</p>
@@ -132,7 +138,7 @@
         <p class="lead">If fashion is the armor to survive the reality of everyday life, your feet could never be safer.</p>
       </div>
       <div class="col-md-5">
-        <img src="/Assets/Images/Carousel/below/2-shoes.jpg" class="featurette-image img-fluid mx-auto" alt="shoes" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img src="../Assets/Images/Carousel/below/2-shoes.jpg" class="featurette-image img-fluid mx-auto" alt="shoes" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false">
       </div>
     </div>
 
