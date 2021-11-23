@@ -5,8 +5,8 @@
 require('db_cred.php');
 
 /**
- *@author David Sampah
- *@version 1.1
+ *@author webtechers
+
  */
 class db_connection
 {
@@ -26,7 +26,7 @@ class db_connection
 		if (mysqli_connect_errno()) {
 			return false;
 		}else{
-			return true;
+			return $this->db ;
 		}
 	}
 

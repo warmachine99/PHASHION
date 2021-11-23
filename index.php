@@ -37,7 +37,7 @@ session_start();
                 <nav class="nav nav-masthead justify-content-center float-md-end">
                     <a class="nav-link active" aria-current="page" href="/Extra Pages/main.php">Home</a>
                     <a class="nav-link" href="/Extra Pages/about-us.html">About Us</a>
-                    <a class="nav-link" href="#">Sign In</a>
+                    <a class="nav-link" href="./admin/admin.php">Admin</a>
                 </nav>
             </div>
         </header>
@@ -63,6 +63,7 @@ session_start();
 
 
     <div class="form" action="database.php"   method="POST" enctype="multipart/form-data">
+        
         <h2>Login Here</h2>
         
         <input type="email" id="email" name="email" placeholder="Enter Email Here">
@@ -101,87 +102,10 @@ session_start();
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
    <script src="/Scripts/script.js"></script>
+   <script src="../js/form-validation.js"></script>
 
 </body>
 
 </html>
 
 
-
-<!-- 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Styling/main_style.css">
-
-    <title>PHASHION &reg; Official Site | Redefining Everyday Style
-    </title>
-</head>
-
-<body>
-    <script src="/Scripts/script.js"></script>
-
-    <div class="home">
-        <header>
-
-            
-            <notif_bar id="alert" align="center">
-                <marquee behavior="scroll" bgcolor="#bb3434" direction="left" scrollamount="13">
-                <span style="font-size: 20px; color:#ffffff">ALERT: International Insanity Crisis Still Ongoing: Keep Your Head On- ALWAYS Wear Your Helmet!</span>
-                <button class="close-button" aria-label="Close alert" type="button" data-close>
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                </marquee>
-                <button></button>
-            </notif_bar>
-             -->
-
-            <!--
-            <div class="navbar">
-                <nav class="upper">
-                    <ul id="left">
-                        <li><a href="#">Ghana</a></li>
-                        <li>English</li>
-                        <li><a href="">Client Services</a></li>
-                    </ul>
-
-                    <ul id="right">
-                        <li><a href="#">Sign In</a></li>
-                        <li><a href="#">Cart</a></li>
-                        <li><a href="#">Search</a></li>
-                    </ul>
-                </nav>
-
-                <h2 id="logo">PHASHION</h2>
-
-                <nav class="lower">
-                    <ul>
-                        <li><a href="#">WHAT'S NEW</a></li>
-                        <li><a href="#">CLOTHES</a></li>
-                        <li><a href="./Extra Pages/bags.html">BAGS</a></li>
-                        <li><a href="/Extra Pages/shoe.html">SHOES</a></li>
-                        <li><a href="/Extra Pages/accessory.html">ACCESSORIES</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-        </header>
-
-    </div>
-
-
-    <main>
-
-    </main>
-
-    <footer>
-
-    </footer>
-
-</body>
-
-</html> -->

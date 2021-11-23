@@ -1,8 +1,9 @@
-<!DOCTYPE HTML>
-<php>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Accessories | PHASHION &reg;</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -51,9 +52,9 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
-	<body>
-		
+</head>
+<body>
+    	
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
@@ -69,8 +70,8 @@
 						<li class="has-dropdown">
 							<a href="#">Shop</a>
 							<ul class="dropdown">
-								<li><a href="/bags.php">Bags</a></li>
-								<li><a href="/shoes.php">Shoes</a></li>
+								<li><a href="bags.php">Bags</a></li>
+								<li><a href="shoes.php">Shoes</a></li>
 							</ul>
 						</li>
 						<li><a href="about.php">About</a></li>
@@ -356,7 +357,6 @@
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
-	</body>
-</php>
+</body>
+</html>
 

@@ -70,8 +70,8 @@
 						<li class="has-dropdown">
 							<a href="#">Shop</a>
 							<ul class="dropdown">
-								<li><a href="/shoes.php">Shoes</a></li>
-								<li><a href="/accessories.php">Accessories</a></li>
+								<li><a href="shoes.php">Shoes</a></li>
+								<li><a href="accessories.php">Accessories</a></li>
 							</ul>
 						</li>
 						<li><a href="about.php">About</a></li>

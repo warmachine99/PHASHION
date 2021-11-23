@@ -41,7 +41,7 @@
 
 <body class="bg-light">
 <nav class="fh5co-nav" role="navigation">
-		<div class="container">
+		<div clacoolss="container">
 			<div class="row">
 				<div class="col-md-3 col-xs-2">
 					<div id="fh5co-logo"><a href="../index.php">PHASHION</a></div>
@@ -84,29 +84,29 @@
         <ul class="list-group mb-3">
           <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 class="my-0">Cool Shoes</h6>
-              <small class="text-muted">2 pairs</small>
+              <h6 class="my-0">HIGH-TOPS AF1</h6>
+              <small class="text-muted">1 pairs</small>
             </div>
-            <span class="text-muted">Ghc12</span>
+            <span class="text-muted"> GHC 200.00</span>
           </li>
           <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 class="my-0">Red Bull</h6>
+              <h6 class="my-0">ADDIDAS X MIDS</h6>
               <small class="text-muted">Gives you wings</small>
             </div>
-            <span class="text-muted">Ghc8</span>
+            <span class="text-muted">GHC 300.00</span>
           </li>
           <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 class="my-0">AK-47</h6>
-              <small class="text-muted">Murder Machine, Guaranteed</small>
+              <h6 class="my-0"> Zip ups</h6>
+              <small class="text-muted"> Guaranteed</small>
             </div>
-            <span class="text-muted">Ghc5</span>
+            <span class="text-muted">Ghc 150</span>
           </li>
           
           <li class="list-group-item d-flex justify-content-between">
             <span>Total (GHC)</span>
-            <strong>Ghc25</strong>
+            <strong>GHC 650.00</strong>
           </li>
         </ul>
 

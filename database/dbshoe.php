@@ -1,5 +1,4 @@
 
-
 <?php
 
 $query="";
@@ -10,11 +9,11 @@ if($_POST)
     $user="root";
     $pass="";
     $db="webtf";
-    $name=$_POST['name'];
-    $email=$_POST['email'];
-    $password=$_POST['password'];
+    $s_name = $_POST['name'];
+    $s_price = $_POST['price'];
+    $s_desc = $_POST['desc'];
     $conn = mysqli_connect($host,$user,$pass,$db); 
-    $query = "INSERT into phasion (name, email, password) VALUES ('$name','$email', '$password')";
+    $query = "INSERT INTO shoe (s_name, s_price, s_desc) VALUES ('$s_name','$s_price','$s_desc')";
     $result = mysqli_query($conn,$query);
 
   
@@ -28,8 +27,10 @@ if(!$query){
     echo'<script> alert("uncessful");</script>';
 }
 else{
+
+    echo'successfully added item';
  
-    header("location: Extra Pages/main.php ");
+    // header("location: Extra Pages/main.php ");
     
      //After this button what next
 }
