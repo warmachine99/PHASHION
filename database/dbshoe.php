@@ -13,19 +13,19 @@ if($_POST)
     $s_price = $_POST['price'];
     // $s_image = $_POST['image'];
     //the path to store uploaded image
-    $target = "database".basename($_FILES['image']['name']);
+    $target = "imagess/".basename($_FILES['image']['name']);
     $s_image =$_FILES['image']['name'];
     
 
 
 
     $conn = mysqli_connect($host,$user,$pass,$db); 
-    $query = "INSERT INTO shoe (s_name, s_price, s_image) VALUES ('$s_name','$s_price','$s_image')";
+    $query = "INSERT INTO shoe (s_name, s_price, s_image) VALUES ('$s_name','$s_price','$target')";
     $result = mysqli_query($conn,$query);
 
 
     
-    if (move_uploaded_file($_FILES['image']['tmp_name'], $target)){
+    if (move_uploaded_file($_FILES['image']['tmp_name'], "../". $target)){
         $msg = " image uploaded";
     }else{
         $msg = "Error image not uploaded";

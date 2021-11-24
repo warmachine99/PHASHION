@@ -1,3 +1,36 @@
+<?php
+ include '../../../settings/db_cred.php';
+
+ 
+   
+ //which kind of product to select form db 
+ if(isset($_GET['shoe_id'])){
+
+    $shoeid= $_GET['shoe_id'];
+
+	$sel= "SELECT * FROM shoe WHERE s_id =$shoeid";
+    $que = mysqli_query($db,$sel); 
+
+	$row = mysqli_fetch_array($que);
+    
+	//  print_r($row);
+
+
+ }       
+   
+ 
+
+
+	
+
+?>
+
+
+
+
+
+
+
 <!DOCTYPE HTML>
 <php>
 	<head>
@@ -98,7 +131,7 @@
 						<div class="item">
 							<div class="active text-center">
 								<figure>
-									<img src="../../../images/shoesImages/s1.jpg" alt="user">
+									<img src=" <?php echo "../../../".$row['s_image'];  ?> " alt="user">
 								</figure>
 							</div>
 						</div>
@@ -123,7 +156,7 @@
 					<p class="lead text-right">Swipe for recommendations -></p>
 					<div class="row animate-box">
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-							<h2>Kente Slip-ons</h2>
+							<h2> <?php echo $row['s_name'];  ?></h2>
 							<p>
 								<a href="#" class="btn btn-primary btn-outline btn-lg">Add to Cart</a>
 								
@@ -146,11 +179,11 @@
 
 							<div class="fh5co-tab-content tab-content active" data-tab-content="1">
 								<div class="col-md-10 col-md-offset-1">
-									<span class="price">Price: GHS 160</span>
-									<h2>Kente Slip-ons</h2>
+									<span class="price"> </span>
+									<h2><?php echo $row['s_price'];  ?></h2>
 									<p>Do you like your feet? Yes?</p>
 
-									<p>Then you're gonna love our Kente Slip-ons.</p>
+									<p>Then you're gonna love our <?php echo $row['s_name'];  ?>.</p>
 
 
 								</div>

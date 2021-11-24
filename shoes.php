@@ -138,6 +138,7 @@ session_start();
                             </div>
                         </div>
                     </div>
+
                     <div class="col-md-4 text-center animate-box">
                         <div class="product">
                             <div class="product-grid" style="background-image:url(images/shoesImages/s2.jpg);">
@@ -279,6 +280,10 @@ session_start();
             <!-- krfs -->
 
             <div>
+
+
+            <div class="container">
+                        <div class="row">
          <?php 
 
            include 'settings/db_cred.php';
@@ -287,30 +292,41 @@ session_start();
             $sel= "SELECT * FROM shoe";
             $que = mysqli_query($db,$sel);
             
-            
-            // $output = "";
-
-            // if(mysqli_num_rows($que) < 1){
-
-            //     $output .= "<h3 class='text-center'>No image</h3> ";
-            // }
-
+              
             while ($row = mysqli_fetch_array($que)){
-                echo   " ";
-                echo "<img src='database".$row['s_image']."'>";  
-                echo " ";
+            ?>
+
+
+                    
+            <div class="col-md-4 text-center animate-box">
+                <div class="product">
+                  <div class="product-grid" style="background-image: url(  <?php echo $row['s_image'];  ?> );">
+                    <div class="inner">
+                        <p>
+                        <a href="Extra Pages/Products/Shoes/one.php?shoe_id=<?php echo $row['s_id'] ?>" class="icon"><i class="icon-shopping-cart"></i></a>
+                            <a href="Extra Pages/Products/Shoes/one.php" class="icon"><i class="icon-eye"></i></a>
+                        </p>
+                    </div>
+                    </div>
+                    <div class="desc">
+                        <h3><a href="Extra Pages/Products/Shoes/one.php"> <?php echo $row['s_name'];  ?></a></h3>
+                        <span class="price"> <?php echo $row['s_price'];  ?> </span>
+                    </div>
+                </div>
+            </div>
+
+               
+
+               <?php 
             }
 
-
-            // while ($row = mysqli_fetch_array($que)){
-           
-            //     $output .= "<img src= '".$row['s_image']."' class='my-3' style='width:400px; height:400px;'>";
-
-
-
-            // }
+            
+            
 
             ?>
+
+              </div>
+                  </div>
             </div>
 
 
