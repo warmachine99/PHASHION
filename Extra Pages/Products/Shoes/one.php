@@ -13,12 +13,35 @@
 
 	$row = mysqli_fetch_array($que);
     
-	//  print_r($row);
+	
+
+  //check if add to cart button is clicked nxtline 
+  if(isset($_POST['addcart'])){
+      
+	session_start();
+	$userid = $_SESSION['user_id'];
+
+
+	$query2= "INSERT INTO `cart`(`user_id`, `s_id`, `qty`) VALUES ('$userid','$shoeid','1')";
+
+	$query3 = mysqli_query($db,$query2); 
+
+	if($query3){
+
+		echo "<script> alert( 'Product added to cart') </script>";
+	} else{
+		echo  "<script> alert( 'Product did not add to cart') </script>";
+	}
+
+
+  }
+
+
 
 
  }       
    
- 
+  
 
 
 	
@@ -139,7 +162,7 @@
 						<div class="item">
 							<div class="active text-center">
 								<figure>
-									<img src="../../../images/shoesImages/s3.jpg" alt="user">
+								<img src=" <?php echo "../../../".$row['s_image'];  ?> " alt="user">
 								</figure>
 							</div>
 						</div>
@@ -147,7 +170,7 @@
 						<div class="item">
 							<div class="active text-center">
 								<figure>
-									<img src="../../../images/shoesImages/s4.jpeg" alt="user">
+								<img src=" <?php echo "../../../".$row['s_image'];  ?> " alt="user">
 								</figure>
 							</div>
 						</div>
@@ -158,8 +181,10 @@
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 							<h2> <?php echo $row['s_name'];  ?></h2>
 							<p>
-								<a href="#" class="btn btn-primary btn-outline btn-lg">Add to Cart</a>
-								
+								<form method="post">
+									<button name="addcart" class="btn btn-primary btn-outline btn-lg">Add to Cart</button>								
+								</form>
+
 							</p>
 						</div>
 					</div>

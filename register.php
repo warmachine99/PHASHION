@@ -1,10 +1,5 @@
-
-
-
-
 <?php
-// start session so that errors can be available in this file to print
-session_start();
+include('server.php');
 
 ?>
 
@@ -43,7 +38,7 @@ session_start();
            <div class="form" >
                 <div class="input_field">
                 <label>Username:</label>
-                <input type="text" class="input" name="name" placeholder="Enter your name" required>
+                <input type="text" class="input" name="name" placeholder="Enter your name" required value="<?php echo $name; ?>">
             </div>
             <div class="input_field">
                 <label>Password:</label>
@@ -51,10 +46,10 @@ session_start();
             </div>      
             <div class="input_field">
                 <label>Email:              </label>
-                <input type="text" class="input" name="email" placeholder="Enter your email" required>
+                <input type="text" class="input" name="email" placeholder="Enter your email" required value="<?php echo $email; ?>">
             </div>      
             
-            <button type ="submit" id="btn" name= "submit"> Submit </button>
+            <button type ="submit" id="btn" name= "regsubmit"> Submit </button>
         
     
     </form>

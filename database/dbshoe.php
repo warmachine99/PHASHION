@@ -43,7 +43,7 @@ if(!$query){
 }
 else{
 
-    echo'successfully added item';
+    echo'<script> alert("successful");</script>';
  
     // header("location: Extra Pages/main.php ");
     

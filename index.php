@@ -57,40 +57,25 @@
 
     <!-- form  -->
 
-
-    <div class="form" action="database.php"   method="POST" enctype="multipart/form-data">
-        
+    <form   action="login.php" method="POST"> 
+    <div class="form" >
+         
+         
         <h2>Login Here</h2>
         
         <input type="email" id="email" name="email" placeholder="Enter Email Here">
         <input type="password" id="password" name="password" placeholder="Enter Password Here">
-        <button class="btnn"><a href="Extra Pages/main.php">Login</a></button>
+        <button name= "login_user "class="btnn">Login</a></button>
     
         <p class="link">Don't have an account<br>
             <a href="register.php">Sign up </a> here</a>
         </p>
         <p class="liw">Log in with</p>
     
-        <div class="icons">
-            <a href="https://www.facebook.com/">
-                <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-            <a href="#">
-                <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-            <a href="#">
-                <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-            <a href="#">
-                <ion-icon name="logo-google"></ion-icon>
-            </a>
-            <a href="#">
-                <ion-icon name="logo-skype"></ion-icon>
-            </a>
-        </div>
-    
+        
+       
     </div>
-    
+    </form>
 
     <!-- end -->
 
