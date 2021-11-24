@@ -40,7 +40,7 @@ session_start();
     <table align="center" style="margin-top: 50px; margin-right: 400px;" cellpadding="3">
       <form action="../database/dbshoe.php " method="post" enctype="multipart/form-data">
      
-
+     
 
         <tr>
           <td>Name</td>
@@ -54,13 +54,18 @@ session_start();
             <input type="text" name="price" required>
           </td>
         </tr>
+
+
         <tr>
-          <td>desc</td>
+          <td>image</td>
           <td>
-            <textarea cols="22" name="desc" required=""></textarea>
+            <input type= file name="image">
+          <!-- <button type="submit"  name="upload" value="Upload Image ">Upload</button> -->
           </td>
         </tr>
         <tr>
+
+
           <td colspan="2" align="center">
             <br><input type="submit" name="submit" value="ADD" class="btn btn-success" style="margin-right:   75px; width: 150px;">
             

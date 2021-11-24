@@ -1,8 +1,4 @@
-<?php
-// start session so that errors can be available in this file to print
-session_start();
 
-?>
 <!doctype html>
 <html lang="en" class="h-100">
 

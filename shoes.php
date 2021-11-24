@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 
 
 
@@ -271,8 +275,47 @@
 
             </div>
             
+
             <!-- krfs -->
 
+            <div>
+         <?php 
+
+           include 'settings/db_cred.php';
+           
+           
+            $sel= "SELECT * FROM shoe";
+            $que = mysqli_query($db,$sel);
+            
+            
+            // $output = "";
+
+            // if(mysqli_num_rows($que) < 1){
+
+            //     $output .= "<h3 class='text-center'>No image</h3> ";
+            // }
+
+            while ($row = mysqli_fetch_array($que)){
+                echo   " ";
+                echo "<img src='database".$row['s_image']."'>";  
+                echo " ";
+            }
+
+
+            // while ($row = mysqli_fetch_array($que)){
+           
+            //     $output .= "<img src= '".$row['s_image']."' class='my-3' style='width:400px; height:400px;'>";
+
+
+
+            // }
+
+            ?>
+            </div>
+
+
+
+            <div> <h2>Testing</h2></div>
             
 
             <!-- new -->

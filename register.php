@@ -1,5 +1,14 @@
 
-<?php include('database.php') ?>
+
+
+
+<?php
+// start session so that errors can be available in this file to print
+session_start();
+
+?>
+
+
 
 
 <!DOCTYPE html>
@@ -31,22 +40,18 @@
 <div class="container">
     <form action="database.php" method="POST">
         <h2>Register With Us</h2>
-           <div  <?php if (isset($name_error)): ?> class="form_error" <?php endif ?>>
+           <div class="form" >
                 <div class="input_field">
                 <label>Username:</label>
-                <input type="text" name="name" placeholder="Enter your name" required value="<?php echo $name; ?>">
-                <?php if (isset($name_error)): ?>
-	        	<span><?php echo $name_error; ?></span>
-	  <?php endif ?>
-      
+                <input type="text" class="input" name="name" placeholder="Enter your name" required>
             </div>
             <div class="input_field">
                 <label>Password:</label>
                 <input type="password" class="input" name="password" placeholder="Enter your password" required>
             </div>      
-            <div <?php if (isset($email_error)): ?> class="form_error" <?php endif ?> >
+            <div class="input_field">
                 <label>Email:              </label>
-                <input type="text"  name="email" placeholder="Enter your email" required value="<?php echo $email; ?>">
+                <input type="text" class="input" name="email" placeholder="Enter your email" required>
             </div>      
             
             <button type ="submit" id="btn" name= "submit"> Submit </button>
@@ -57,4 +62,3 @@
 
 </body>
 </html>
-

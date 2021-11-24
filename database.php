@@ -10,11 +10,12 @@ if($_POST)
     $user="root";
     $pass="";
     $db="webtf";
+    $id=$_POST['id'];
     $name=$_POST['name'];
     $email=$_POST['email'];
     $password=$_POST['password'];
     $conn = mysqli_connect($host,$user,$pass,$db); 
-    $query = "INSERT into phasion (name, email, password) VALUES ('$name','$email', '$password')";
+    $query = "INSERT into phasion (id,name, email, password) VALUES ('$id','$name','$email', '$password')";
     $result = mysqli_query($conn,$query);
 
   
@@ -29,7 +30,7 @@ if(!$query){
 }
 else{
  
-    header("location: Extra Pages/main.php ");
+    header("location: index.php ");
     
      //After this button what next
 }

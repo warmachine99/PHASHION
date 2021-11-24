@@ -45,7 +45,7 @@
           <tr align="center">
             <td> <?php echo $data['s_name']; ?> </td>
             <td> <?php echo $data['s_price']; ?> </td>
-            <td> <?php echo $data['s_desc']; ?> </td>
+            <td> <?php echo $data['s_image']; ?> </td>
             <td> <img src="../dataimg/<?php echo $data['image'] ?>" style="max-width:100px;max-height: 100px;"></td>  
             <td> <a href="updateitem1.php?sid=<?php echo $data['id']; ?>"> Edit </a></td>
             <td> <a href="deleteitem1.php?sid=<?php echo $data['id']; ?>"> Delete </a></td>
