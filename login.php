@@ -7,8 +7,10 @@
 
 
 
-if(isset($_POST['login_user'])){
 
+
+if(isset($_POST['login_user'])){
+  
     $email= $_POST['email'];
     $password=$_POST['password'];
     
@@ -18,7 +20,9 @@ if(isset($_POST['login_user'])){
     
     $row1 = mysqli_fetch_array($que);
 
+  
 
+  
     //if row1 is not empty has
     if(!empty( $row1)){
         // $password= md5($password);
@@ -27,7 +31,7 @@ if(isset($_POST['login_user'])){
           session_start();
           
           $_SESSION['user_id'] = $row1['id']; 
-          header("location: /Extra Pages/main.php");
+          header("location: Extra Pages/main.php");
 
 
         }else{

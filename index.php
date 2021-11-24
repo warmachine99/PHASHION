@@ -65,7 +65,7 @@
         
         <input type="email" id="email" name="email" placeholder="Enter Email Here">
         <input type="password" id="password" name="password" placeholder="Enter Password Here">
-        <button name= "login_user "class="btnn">Login</a></button>
+        <button name= "login_user" class="btnn">Login</a></button>
     
         <p class="link">Don't have an account<br>
             <a href="register.php">Sign up </a> here</a>
