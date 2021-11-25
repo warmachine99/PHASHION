@@ -44,10 +44,18 @@ include('server.php');
                 <label>Password:</label>
                 <input type="password" class="input" name="password" placeholder="Enter your password" required>
             </div>      
+
+            <div class="input_field">
+                <label>Confirm password:</label>
+                <input type="password" class="input" name="password2" placeholder="Re-type password" required>
+            </div>     
+
             <div class="input_field">
                 <label>Email:              </label>
                 <input type="text" class="input" name="email" placeholder="Enter your email" required value="<?php echo $email; ?>">
-            </div>      
+            </div>   
+            
+            
             
             <button type ="submit" id="btn" name= "regsubmit"> Submit </button>
         

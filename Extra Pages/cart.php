@@ -82,26 +82,23 @@
           <span class="badge bg-primary rounded-pill">3</span>
         </h4>
         <ul class="list-group mb-3">
+
+        <?php
+            include '../settings/db_cred.php';
+            //include '../Extra Pages/Products/Shoes/one.php';
+            
+            $sel1 = "SELECT * FROM cart";
+            $que1 = mysqli_query($db, $sel1);
+
+            while ($row = mysqli_fetch_array($que1)) {
+            ?>
+
           <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 class="my-0">HIGH-TOPS AF1</h6>
-              <small class="text-muted">1 pairs</small>
-            </div>
-            <span class="text-muted"> GHC 200.00</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">ADDIDAS X MIDS</h6>
-              <small class="text-muted">Gives you wings</small>
-            </div>
-            <span class="text-muted">GHC 300.00</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0"> Zip ups</h6>
+              <h6 class="my-0"> <?php echo $row['c_id'];  ?></h6>
               <small class="text-muted"> Guaranteed</small>
             </div>
-            <span class="text-muted">Ghc 150</span>
+            <span class="text-muted"><?php echo $row['s_id'];  ?> </span>
           </li>
           
           <li class="list-group-item d-flex justify-content-between">
@@ -109,6 +106,10 @@
             <strong>GHC 650.00</strong>
           </li>
         </ul>
+
+        <?php
+        }
+        ?>
 
 
       </div>

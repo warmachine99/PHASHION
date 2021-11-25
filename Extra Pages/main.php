@@ -62,7 +62,7 @@ session_start();
         </ul>
         
         <form class="d-flex">
-          <a href="cart.php" class="btn btn-outline-success" >Cart</a>
+            <a href="../index.php" class="btn btn-outline-success">LOGOUT</a>
         </form>
       </div>
     </div>

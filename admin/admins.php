@@ -17,10 +17,10 @@
 
   <!-- Removing the / brings the css -->
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="Custom Styling/cover.css" rel="stylesheet">
+    <link href="../Custom Styling/cover.css" rel="stylesheet">
 
 </head>
 
@@ -31,7 +31,8 @@
             <div>
                 <h3 class="float-md-start mb-0">PHASHION</h3>
                 <nav class="nav nav-masthead justify-content-center float-md-end">
-                
+                    <a class="nav-link active" aria-current="page" href="../admin/add.php">Admin</a>
+                    
                    
                 </nav>
             </div>
@@ -42,7 +43,9 @@
         <h1>Cover your page.</h1> -->
             <p class="lead">Welcome to Phashion.</p>
             <p class="lead">We'll make you look good. Guaranteed.</p>
-           
+            <p class="lead">
+                <a href="Extra Pages/main.php" class="btn btn-lg btn-secondary fw-bold border-white bg-white">SHOP</a>
+            </p>
         </main>
 
         <footer class="mt-auto text-white-50">
@@ -53,7 +56,7 @@
     </div>
 
     <!-- form  -->
-
+<!-- 
     <form   action="login.php" method="POST"> 
     <div class="form" >
          
@@ -67,12 +70,12 @@
         <p class="link">Don't have an account<br>
             <a href="register.php">Sign up </a> here</a>
         </p>
-        
+        <p class="liw">Log in with</p>
     
         
        
     </div>
-    </form>
+    </form> -->
 
     <!-- end -->
 

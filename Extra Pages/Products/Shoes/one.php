@@ -29,6 +29,7 @@
 	if($query3){
 
 		echo "<script> alert( 'Product added to cart') </script>";
+		
 	} else{
 		echo  "<script> alert( 'Product did not add to cart') </script>";
 	}

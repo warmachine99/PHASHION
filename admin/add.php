@@ -26,8 +26,7 @@ session_start();
 </head>
 <body>
   <div align="center" class="bg-dark text-light pt-4 pb-4">
-    <a href="../logout.php"><button style="float: right;" class="btn btn-danger mr-3">LOGOUT</button></a>
-    <a href="admindash.php"><button style="float: left;" class="btn btn-success ml-3"><< BACK</button></a>
+    <a href="../admin/admins.php"><button style="float: right;">LOGOUT</button></a>
     <h1>WELCOME TO ADMIN DASHBOARD</h1>  
   </div>
 

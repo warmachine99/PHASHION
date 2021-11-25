@@ -20,6 +20,7 @@
     if (empty($name)) { array_push($errors, "Username is required"); }
     if (empty($email)) { array_push($errors, "Email is required"); }
     if (empty($password)) { array_push($errors, "Password is required"); }
+    
 
     }
 
@@ -43,14 +44,16 @@
   if (count($errors) == 0) {
   	$password = md5($password);//encrypt the password before saving in the database
 
-  	$query = "INSERT INTO phasion (name, email, password) 
-  			  VALUES('$name', '$email', '$password')";
+  	$query = "INSERT INTO phasion (name, email, password) VALUES('$name', '$email', '$password')";
   	mysqli_query($db, $query);
   	$_SESSION['name'] = $name;
   	$_SESSION['success'] = "You are now logged in";
+     
+    echo  "<script> alert( 'successfully signed up') </script>";
+
   	header('location: index.php');
     
-    echo  "<script> alert( 'successfully signed up') </script>";
+    
 
   }
 
